@@ -72,6 +72,9 @@ chmod 770 /ven
 chmod 770 /sec
 chmod 777 /publico
 
+echo -e "\n"
+echo -e "\n"
+
 # Show the USERS-CREATED ART ASCII
 cat ../asset/users-created-ascii.txt | while IFS= read -r linha; do
     echo -e "${CYAN}${linha}${RESET}"
