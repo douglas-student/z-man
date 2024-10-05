@@ -36,7 +36,7 @@
 
 
 ```
-# Z-MAN - LINUX USERS MANAGE
+# Z-MAN - LINUX USERS MANAGE [:brazil:](LEIAME.md)
 ## DIO Exercise: Create a script that creates groups and users on the Linux operating system
 
 ## Installation Procedures
@@ -147,3 +147,63 @@ Ensure you have the following installed on your system:
 - Ensure to review the script before running it to understand its functionality and make any necessary adjustments based on your requirements.
 - If you encounter permission issues while running the script, you may need to run Docker with elevated privileges or as a user with appropriate permissions.
 
+
+
+Aqui está a seção sobre o `uninstall.sh` em inglês para incluir no seu README:
+
+```markdown
+## Uninstall Script
+
+To undo the changes made by the `iac1.sh` script, you can use the `uninstall.sh` script. This script will remove the users, groups, and directories that were created during the execution of `iac1.sh`.
+
+### Usage Instructions
+
+1. **Open a terminal.**
+
+2. **Navigate to the project directory where the `uninstall.sh` script is located.**
+   ```bash
+   cd /bash-scripts/z-man/scripts
+   ```
+
+3. **Give execution permission to the `uninstall.sh` script:**
+   ```bash
+   chmod +x uninstall.sh
+   ```
+
+4. **Run the script with superuser privileges:**
+   ```bash
+   sudo ./uninstall.sh
+   ```
+
+### What the script does?
+
+- Removes the following users:
+  - carlos
+  - maria
+  - joao
+  - debora
+  - sebastiana
+  - roberto
+  - josefina
+  - amanda
+  - rogerio
+
+- Removes the following groups:
+  - GRP_ADM
+  - GRP_VEN
+  - GRP_SEC
+
+- Removes the following directories:
+  - /publico
+  - /adm
+  - /ven
+  - /sec
+
+### Attention
+
+- The `uninstall.sh` script permanently removes users and directories. Ensure that there is no important data you wish to keep before executing it.
+- It is recommended to run this script in a testing environment before using it on a production system.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
