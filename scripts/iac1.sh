@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Show the Z-MAN ART ASCII
-cat ../asset/zman.txt
+cat ../asset/zman-ascii.txt
 
 echo "Criando diretórios..."
 
