@@ -1,9 +1,9 @@
 #!/bin/bash
 
-echo "Desfazendo alterações feitas pelo iac1.sh..."
+echo "Undoing changes made by iac1.sh..."
 
-# Remover usuários
-echo "Removendo usuários..."
+# Remove users
+echo "Removing users..."
 userdel -r carlos
 userdel -r maria
 userdel -r joao
@@ -14,17 +14,17 @@ userdel -r josefina
 userdel -r amanda
 userdel -r rogerio
 
-# Remover grupos
-echo "Removendo grupos..."
+# Remove groups
+echo "Removing groups..."
 groupdel GRP_ADM
 groupdel GRP_VEN
 groupdel GRP_SEC
 
-# Remover diretórios
-echo "Removendo diretórios..."
+# Remove directories
+echo "Removing directories..."
 rm -r /publico
 rm -r /adm
 rm -r /ven
 rm -r /sec
 
-echo "Todas as alterações foram desfeitas!"
+echo "All changes have been undone!"
