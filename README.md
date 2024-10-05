@@ -73,7 +73,7 @@ Ensure you have the following installed on your system:
    You need to make the scripts executable. Run the following commands:
 
    ```bash
-   chmod +x iac1.sh
+   chmod +x *
    ```
 
 4. **Run the Script**
@@ -138,7 +138,7 @@ Ensure you have the following installed on your system:
    Make the script executable and run it:
 
    ```bash
-   chmod +x iac1.sh  # Ensure the script is executable
+   chmod +x *  # Ensure the scripts as executable
    ./iac1.sh         # Execute the script
    ```
 
